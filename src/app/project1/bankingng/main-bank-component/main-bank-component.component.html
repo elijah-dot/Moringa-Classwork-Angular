@@ -1,0 +1,23 @@
+<div class="inside">
+  <div class="container">
+    <div class="third">
+      <h1>project one</h1>
+    </div>
+    <h3 class="text-center">Create a new account</h3>
+    <app-new-account-component></app-new-account-component>
+    <h4 class="text-center">All our accounts</h4>
+    <div *ngFor="let account of accounts; let i = index">
+      <div class="onepoint">
+        <h3>
+          Name :<strong>{{ account.name }}</strong>
+        </h3>
+        <h3>
+          balance :<strong>{{ account.balance }}</strong>
+        </h3>
+        <h3>
+          type of account :<strong>{{ account.type }}</strong>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>

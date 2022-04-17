@@ -1,0 +1,17 @@
+.onepoint{
+    border: 2px solid white;
+}
+.third{
+    text-align: center;
+
+}
+.inside{
+    background-image: url(../../../../assets/milky.webp);
+    position: relative;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+}
+.container{
+    color: azure;
+}

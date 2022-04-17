@@ -1,0 +1,19 @@
+.container{
+    background-color: black;
+    color: azure;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 200px;
+
+}
+.first{
+    text-align: center;
+    margin-top: 40px;
+}
+.image{
+    position: relative;
+    width: 100vw;
+    height:100vh ;
+    background-image: url(../../assets/rainbow.webp);
+
+}

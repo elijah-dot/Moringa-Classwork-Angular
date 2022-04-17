@@ -1,0 +1,14 @@
+<p>new-account-component works!</p>
+<div class="lighgrey" style="width: 100%">
+  <div class="inputone">
+    <p class="form-group">
+      <input type="text" placeholder="enter your account" class="form-control" [(ngModel)]="name" />
+    </p>
+    <p  class="form-group">
+      <input type="text" placeholder="enter your account type" class="form-control" [(ngModel)]="type"/>
+    </p>
+    <div class="byt">
+        <button (click)="createNewAccount()" class="btn btn-success text-center">submit</button>
+    </div>
+  </div>
+</div>
